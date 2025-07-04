@@ -6,4 +6,5 @@ set(CMAKE_C_STANDARD 11)
 include_directories(.)
 
 add_executable(hm_18
-        Employee.h)
+        Employee.h
+        main.cpp)

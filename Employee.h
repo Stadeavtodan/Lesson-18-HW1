@@ -8,5 +8,5 @@ struct Employee{
     int bornYear = 0;
     char position[50] = "undefined";
     double salary = 0;
-    char[100] = "undefined";
+    char education[100] = "undefined";
 };
