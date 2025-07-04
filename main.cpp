@@ -1,4 +1,6 @@
+#include <iostream>
 #include "Employee.h"
+using namespace std;
 
 int main()
 {
@@ -10,4 +12,14 @@ int main()
             {"Felixov", 1987, "Programmer", 2910, "no education"},
             {"Felixovich", 1999, "Manager", 3290, "low education"}
     };
+    int yearCount = 0;
+    for(int i = 0; i < n; i++){
+        if(2025 - arr[i].bornYear > 60){
+            arr[i].showInfo();
+            yearCount++;
+        }
+    }
+    cout << "Quantity: " << yearCount << endl;
+    cout << "====================================\n";
+
 }

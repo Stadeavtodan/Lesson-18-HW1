@@ -1,5 +1,4 @@
 "F:\CLion_IDE\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=F:/CLion_IDE/CLion 2021.3.4/bin/ninja/win/ninja.exe" -G Ninja F:\C++_workspace\HM\hm_18
 -- Configuring done
-CMake Error: CMake can not determine linker language for target: hm_18
 -- Generating done
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Build files have been written to: F:/C++_workspace/HM/hm_18/cmake-build-debug
